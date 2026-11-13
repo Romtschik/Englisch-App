@@ -1,0 +1,785 @@
+# Projektauftrag: Entwicklung einer personalisierten Englisch-Lernapp
+
+## 1. Ausgangssituation
+
+Ich möchte mit dir eine moderne, interaktive und langfristig nutzbare Englisch-Lernapp entwickeln.
+
+Die App soll mich gezielt auf meine neue berufliche Tätigkeit als **Teilprojektleiter Betriebseinführung (Subproject Manager – Commissioning / Entry into Service) bei Stadler Rail in St. Margrethen, Schweiz**, vorbereiten.
+
+Mein beruflicher Hintergrund liegt in der Automatisierungstechnik, Mechatronik und technischen Projektleitung.
+
+Ich verfüge über technisches Fachwissen und Projektmanagementerfahrung. Allerdings muss ich mein Englisch verbessern, insbesondere bei technischen Fachbegriffen, dem Lesen englischer Dokumentationen und der Kommunikation im internationalen Projektumfeld.
+
+Die App soll mich zunächst auf den Berufseinstieg vorbereiten und mich anschließend dauerhaft im Arbeitsalltag unterstützen.
+
+**Wichtig:** Es soll keine gewöhnliche Englisch-Lernapp entstehen, sondern ein auf meine Tätigkeit zugeschnittenes Trainingssystem mit realistischen beruflichen Situationen.
+
+---
+
+## 2. Vorhandene GitHub-Dateien als Grundlage
+
+Mein Bruder hat bereits mit Claude und GitHub eine funktionierende App zum Russischlernen entwickelt.
+
+Die entsprechenden Dateien befinden sich in dem GitHub-Repository, auf das du Zugriff hast.
+
+Bitte analysiere zunächst das gesamte bestehende Projekt.
+
+Untersuche insbesondere:
+
+- Verwendete Programmiersprache und Frameworks
+- Aufbau und Architektur der Anwendung
+- Benutzeroberfläche und Navigation
+- Vorhandene Lernmodule
+- Vokabeltrainer und Wiederholungssysteme
+- Speicherung von Lernständen
+- Benutzerinteraktionen und Lernstatistiken
+- Vorhandene Audio- und Sprachausgabefunktionen
+- Möglichkeiten zur Erweiterung
+
+**Die vorhandene Anwendung soll als technische und gestalterische Grundlage dienen.**
+
+Übernimm sinnvolle Funktionen und bewährte Konzepte, aber passe sie vollständig an die Anforderungen eines Englischtrainers an.
+
+Die ursprüngliche Anwendung enthält unter anderem Funktionen zum Erlernen des kyrillischen Alphabets.
+
+Diese benötige ich nicht.
+
+Entferne beziehungsweise ersetze sämtliche Funktionen zum Erlernen von Buchstaben, Alphabeten oder Schriftsystemen.
+
+Da ich die bisherige App meines Bruders nicht beschädigen möchte, soll die Entwicklung in einem separaten Branch beziehungsweise einer eigenständigen Projektkopie erfolgen.
+
+Bitte verwende nach Möglichkeit die bereits vorhandenen Technologien. Ein vollständiger technischer Neuaufbau soll nur erfolgen, wenn dafür nachvollziehbare Gründe sprechen.
+
+---
+
+# 3. Beruflicher Schwerpunkt: Stadler Rail
+
+Die Lerninhalte sollen sich an den tatsächlichen Aufgaben meiner neuen Position orientieren.
+
+## 3.1 Betriebseinführung von Schienenfahrzeugen
+
+Meine Tätigkeit umfasst unter anderem:
+
+- Koordination der Betriebseinführung neuer Schienenfahrzeuge
+- Vorbereitung der Fahrzeuge auf den regulären Kundenbetrieb
+- Koordination unterschiedlicher technischer Fachbereiche
+- Abstimmung mit internen und externen Projektbeteiligten
+- Überwachung von Terminen, Anforderungen und Arbeitspaketen
+- Betreuung von Kunden bei Themen der Betriebseinführung
+- Sicherstellung der vertraglich vereinbarten Leistungen
+
+Die App soll die dafür notwendige englische Fachsprache vermitteln.
+
+Dazu gehören Begriffe wie:
+
+- Entry into Service
+- Commissioning
+- Rolling Stock
+- Fleet
+- Acceptance
+- Handover
+- Operational Readiness
+- Requirements
+- Deliverables
+- Milestones
+- Interface Management
+
+Die Begriffe müssen fachlich korrekt verwendet werden.
+
+Dabei ist zu berücksichtigen, dass die genaue englische Bezeichnung eines Prozesses je nach Unternehmen und Vertragskontext variieren kann.
+
+## 3.2 RAM – Reliability, Availability, Maintainability
+
+Dies ist ein besonders wichtiger Lernbereich.
+
+Ich muss die englische RAM-Terminologie verstehen und entsprechende Dokumentationen lesen und interpretieren können.
+
+Themen sind beispielsweise:
+
+- Reliability
+- Availability
+- Maintainability
+- RAM Requirements
+- Failure Rate
+- Failure Analysis
+- Mean Time Between Failures (MTBF)
+- Mean Time To Repair (MTTR)
+- Mean Distance Between Failures (MDBF)
+- Downtime
+- Corrective Maintenance
+- Preventive Maintenance
+- Maintenance Intervals
+- Failure Reporting
+- Reliability Demonstration
+- Availability Calculation
+- Performance Monitoring
+
+Die App soll nicht nur Begriffe übersetzen, sondern auch deren technische Bedeutung erklären.
+
+Beispiel:
+
+Ein englischer Vertragsabschnitt definiert eine bestimmte Verfügbarkeit der Fahrzeugflotte.
+
+Ich muss anschließend Fragen beantworten wie:
+
+- Welche Verfügbarkeit wird gefordert?
+- Wie wird diese berechnet?
+- Welche Ausfallzeiten werden berücksichtigt?
+- Welche Ausnahmen gelten?
+- Welche Nachweise sind zu erbringen?
+- Welche Konsequenzen ergeben sich bei Nichterfüllung?
+
+Zusätzlich sollen einfache technische Berechnungen und praxisnahe Aufgaben integriert werden.
+
+Die Berechnungsgrundlagen müssen korrekt sein. Vertragsspezifische Definitionen und Ausnahmen sind zu berücksichtigen.
+
+## 3.3 Ersatzteilmanagement und Ersatzteilkonzepte
+
+Ein weiterer Schwerpunkt ist das Ersatzteilmanagement.
+
+Relevante Begriffe:
+
+- Spare Parts
+- Spare Parts Concept
+- Spare Parts List
+- Recommended Spare Parts
+- Critical Spare Parts
+- Stock Level
+- Inventory
+- Lead Time
+- Delivery Time
+- Supplier
+- Procurement
+- Obsolescence
+- Lifecycle Management
+- Replacement Parts
+- Component Failure
+- Warranty Parts
+
+Die Übungen sollen typische Fragestellungen behandeln.
+
+Beispielsweise:
+
+Ein Kunde benötigt eine Ersatzteilliste für eine neue Fahrzeugflotte.
+
+Ich muss eine englische Spezifikation verstehen, kritische Komponenten identifizieren und nachvollziehen, welche Anforderungen hinsichtlich Ersatzteilverfügbarkeit, Lieferzeiten und Lagerhaltung bestehen.
+
+## 3.4 Technische Dokumentation
+
+Ein besonders wichtiges Ziel ist, englische Dokumentationen sicher lesen und verstehen zu können.
+
+Dazu gehören:
+
+- Technical Specifications
+- Maintenance Manuals
+- Operating Instructions
+- Inspection Reports
+- Test Reports
+- RAM Reports
+- Requirements Specifications
+- Acceptance Documents
+- Maintenance Plans
+- Training Documentation
+- Spare Parts Catalogues
+- Technical Drawings
+
+Die Übungen sollen zunehmend anspruchsvoller werden.
+
+Anfangs kurze Absätze, später mehrere Seiten umfassende Dokumente.
+
+Ich möchte lernen, wichtige Informationen schnell zu erkennen, Anforderungen zu verstehen und Zusammenhänge korrekt zu interpretieren.
+
+## 3.5 Verträge und vertragliche Anforderungen
+
+Ich werde beruflich mit englischen Verträgen und technischen Vertragsanhängen arbeiten.
+
+Deshalb benötige ich ein spezielles Training zum Verständnis englischer Vertragssprache.
+
+Beispiele:
+
+- Contractual Requirements
+- Contractual Obligations
+- Scope of Supply
+- Scope of Work
+- Deliverables
+- Acceptance Criteria
+- Warranty Period
+- Performance Guarantees
+- Penalties
+- Liquidated Damages
+- Compliance
+- Deviation
+- Non-Conformity
+- Verification
+- Validation
+
+Bitte erstelle realistische, aber fiktive englische Vertragsauszüge und technische Anhänge.
+
+Diese sollen sich an typischen Verträgen im internationalen Schienenfahrzeugbau orientieren.
+
+Öffentlich zugängliche Originaldokumente dürfen ebenfalls als Grundlage verwendet werden, sofern ihre Nutzung rechtlich zulässig ist und Quellen nachvollziehbar angegeben werden.
+
+Erfundene Inhalte müssen eindeutig als Trainingsdokumente gekennzeichnet sein.
+
+Die Vertragsübungen sollen unter anderem folgende Aufgaben enthalten:
+
+1. Einen englischen Vertragsabschnitt lesen.
+2. Den Inhalt auf Deutsch zusammenfassen.
+3. Konkrete Anforderungen identifizieren.
+4. Fristen, Verantwortlichkeiten und Grenzwerte herausarbeiten.
+5. Fragen zum Vertragsinhalt beantworten.
+6. Mögliche Risiken und Unklarheiten erkennen.
+
+Bitte verwende eine realistische technische und vertragliche Ausdrucksweise.
+
+---
+
+# 4. Lernmodul 1: Intelligenter Vokabeltrainer
+
+Der Vokabeltrainer bildet eine wichtige Grundlage.
+
+## Funktionen
+
+Jede Vokabel soll möglichst folgende Informationen enthalten:
+
+- Englischer Begriff
+- Deutsche Übersetzung
+- Englische Aussprache
+- Audiofunktion zum Anhören
+- Kurze deutsche Erklärung
+- Beispielsatz auf Englisch
+- Deutsche Übersetzung des Beispiels
+- Fachgebiet
+- Schwierigkeitsgrad
+- Lernstatus
+
+Beispiel:
+
+**Availability**
+
+Deutsch: Verfügbarkeit
+
+Bedeutung: Anteil der definierten Betrachtungszeit, in dem ein System gemäß der jeweiligen Definition verfügbar ist.
+
+Beispielsatz:
+
+"The contractual fleet availability shall be at least 98%."
+
+Übersetzung:
+
+"Die vertraglich vereinbarte Flottenverfügbarkeit muss mindestens 98 % betragen."
+
+## Lernmethoden
+
+Ich möchte verschiedene Möglichkeiten haben, die Vokabeln zu trainieren:
+
+- Englisch → Deutsch
+- Deutsch → Englisch
+- Multiple Choice
+- Freie Texteingabe
+- Lückentexte
+- Vokabeln anhand von Beispielsätzen erkennen
+- Hörverständnis einzelner Begriffe
+- Schreibweise trainieren
+
+## Intelligente Wiederholung
+
+Bitte implementiere ein Spaced-Repetition-System.
+
+Vokabeln, die ich gut beherrsche, sollen seltener wiederholt werden.
+
+Schwierige oder häufig falsch beantwortete Begriffe sollen häufiger erscheinen.
+
+Ich möchte außerdem selbst bestimmen können, ob ich eine Vokabel:
+
+- Nicht kenne
+- Unsicher beherrsche
+- Gut kenne
+- Sicher beherrsche
+
+Falsch beantwortete Vokabeln sollen automatisch in einer persönlichen Fehlerliste erscheinen.
+
+---
+
+# 5. Lernmodul 2: Dokumententraining
+
+Dieses Modul ist besonders wichtig.
+
+Ich möchte englische technische Dokumentationen und Vertragsauszüge lesen und anschließend interaktive Übungen bearbeiten.
+
+## Beispiel eines Trainingsablaufs
+
+Die App zeigt einen englischen Auszug aus einer technischen Spezifikation.
+
+Anschließend folgen Aufgaben wie:
+
+**Question 1:**
+
+"What is the required fleet availability?"
+
+**Question 2:**
+
+"Which types of downtime are excluded from the calculation?"
+
+**Question 3:**
+
+"Who is responsible for providing the required evidence?"
+
+Die Antworten sollen bewertet und erklärt werden.
+
+## Funktionen
+
+- Unterschiedliche Schwierigkeitsgrade
+- Kurze und längere Dokumente
+- Multiple-Choice-Fragen
+- Freitextantworten
+- Übersetzungsübungen
+- Zusammenfassungen
+- Fachbegriffe direkt im Text markieren
+- Unbekannte Wörter per Klick übersetzen
+- Wörter direkt zur persönlichen Vokabelliste hinzufügen
+
+Besonders sinnvoll wäre eine geteilte Ansicht:
+
+**Links:** Englisches Dokument
+
+**Rechts:** Fragen, Übersetzungen und Lernhilfen
+
+Zusätzlich möchte ich später eigene englische PDF-Dokumente hochladen können.
+
+Die App soll daraus relevante Fachbegriffe erkennen und Verständnisfragen generieren können.
+
+Wichtig: Bei der Auswertung soll zwischen eindeutig im Dokument enthaltenen Informationen und zusätzlichen Erklärungen unterschieden werden.
+
+Bei umfangreichen Dokumenten müssen Seiten beziehungsweise Textstellen als Quellen der Antworten erkennbar sein.
+
+---
+
+# 6. Lernmodul 3: Technisches Englisch im Berufsalltag
+
+Dieses Modul soll typische Situationen aus meiner Arbeit simulieren.
+
+## Szenario 1: Projektmeeting
+
+Ein Projektmeeting findet auf Englisch statt.
+
+Themen:
+
+- Projektfortschritt
+- Offene Punkte
+- Terminverzögerungen
+- Verantwortlichkeiten
+- Technische Probleme
+- Maßnahmen
+- Risiken
+
+Ich muss englische Aussagen verstehen und angemessen darauf reagieren.
+
+## Szenario 2: RAM-Meeting
+
+Ein Kunde bemängelt, dass die vereinbarte Fahrzeugverfügbarkeit möglicherweise nicht erreicht wird.
+
+Ich muss:
+
+- Die Situation verstehen
+- Rückfragen stellen
+- Kennzahlen besprechen
+- Ursachen erklären
+- Maßnahmen abstimmen
+
+## Szenario 3: Ersatzteilmanagement
+
+Ein Kunde fordert Informationen zur Verfügbarkeit kritischer Ersatzteile.
+
+Ich muss die Anfrage verstehen und eine fachlich passende Antwort formulieren.
+
+## Szenario 4: Technische Dokumentation
+
+Ein Fachbereich liefert eine unvollständige technische Dokumentation.
+
+Ich muss fehlende Informationen identifizieren und auf Englisch nachfordern.
+
+## Szenario 5: Kundenkommunikation
+
+Ein internationaler Kunde erkundigt sich nach dem Stand der Betriebseinführung.
+
+Ich soll eine professionelle englische Antwort formulieren.
+
+Die App soll unterschiedliche Antwortmöglichkeiten und Formulierungen trainieren.
+
+Dabei soll verständliches, natürliches Berufsenglisch im Vordergrund stehen.
+
+---
+
+# 7. Lernmodul 4: Hörverständnis und Aussprache
+
+Ich möchte englische Fachbegriffe und berufliche Gespräche auch akustisch verstehen.
+
+Bitte prüfe, welche technischen Möglichkeiten das vorhandene Projekt bereits bietet.
+
+Gewünschte Funktionen:
+
+- Englische Vokabeln vorlesen lassen
+- Beispielsätze anhören
+- Kurze technische Gespräche anhören
+- Verständnisfragen zum Gehörten beantworten
+- Unterschiedliche Sprechgeschwindigkeiten
+- Optional britisches und amerikanisches Englisch
+
+Falls technisch sinnvoll, soll später auch meine eigene Aussprache über ein Mikrofon trainiert werden können.
+
+Die App soll dabei verständliche Hinweise geben, welche Wörter oder Sätze ich verbessern kann.
+
+Eine aufwendige KI-Sprachfunktion ist zunächst nicht zwingend erforderlich.
+
+---
+
+# 8. Lernmodul 5: KI-gestützter Englischtrainer
+
+Langfristig möchte ich mit einem virtuellen Trainer üben können.
+
+Der Trainer soll die Rolle eines:
+
+- Internationalen Kunden
+- Technischen Projektleiters
+- RAM-Spezialisten
+- Servicemanagers
+- Ersatzteilverantwortlichen
+
+übernehmen können.
+
+Ich möchte mit ihm berufliche Situationen auf Englisch durchspielen.
+
+Der Trainer soll sich an mein Sprachniveau anpassen.
+
+Nach meinen Antworten soll er mir helfen, mich zu verbessern.
+
+Beispielsweise:
+
+**Meine Antwort:**
+
+"We have problem with spare parts delivery."
+
+**Verbesserung:**
+
+"We are experiencing delays in the delivery of spare parts."
+
+Zusätzlich soll die App kurz erklären, warum die zweite Formulierung besser ist.
+
+Ich möchte dabei nicht nur grammatikalisch korrektes Englisch lernen, sondern auch typische Formulierungen aus dem technischen Projektmanagement.
+
+Bitte berücksichtige, dass externe KI-APIs laufende Kosten verursachen können.
+
+Die App soll daher zunächst auch ohne kostenpflichtige KI-Schnittstelle nutzbar sein.
+
+KI-Funktionen sollen später modular ergänzt werden können.
+
+---
+
+# 9. Lernmodul 6: Lernfortschritt und persönliche Lernplanung
+
+Die App soll meinen Lernfortschritt langfristig dokumentieren.
+
+Ich möchte ein übersichtliches Dashboard.
+
+Anzeigen:
+
+- Anzahl gelernter Vokabeln
+- Anzahl sicher beherrschter Vokabeln
+- Offene Wiederholungen
+- Lernzeit
+- Lernserie
+- Fortschritt pro Themenbereich
+- Fehlerquote
+- Besonders schwierige Begriffe
+
+Zusätzlich soll die App meine Schwächen erkennen.
+
+Wenn ich beispielsweise bei RAM-Begriffen häufig Fehler mache, sollen diese verstärkt trainiert werden.
+
+## Tägliches Lernprogramm
+
+Ich möchte jeden Tag eine kurze, abwechslungsreiche Lerneinheit absolvieren können.
+
+Standardmäßig etwa 15–20 Minuten.
+
+Beispiel:
+
+- 5 Minuten Vokabelwiederholung
+- 5 Minuten neue Fachbegriffe
+- 5 Minuten Dokumententraining
+- 5 Minuten berufliche Kommunikationsübungen
+
+Dauer und Umfang sollen einstellbar sein.
+
+Außerdem möchte ich einzelne Lernmodule unabhängig voneinander nutzen können.
+
+---
+
+# 10. Schwierigkeitsgrade
+
+Ich möchte die App nicht dauerhaft auf einem einfachen Sprachniveau verwenden.
+
+Sie soll sich mit meinen Fortschritten weiterentwickeln.
+
+Bitte integriere unterschiedliche Schwierigkeitsgrade.
+
+**Level 1 – Grundlagen**
+
+Einfache technische Vokabeln und kurze Sätze.
+
+**Level 2 – Berufsenglisch**
+
+Typische Formulierungen, Fachbegriffe und kurze Dokumentationen.
+
+**Level 3 – Technische Dokumentationen**
+
+Anspruchsvollere Fachtexte, technische Anforderungen und Zusammenhänge.
+
+**Level 4 – Vertragsenglisch**
+
+Vertragsklauseln, technische Spezifikationen, Verantwortlichkeiten und Nachweise.
+
+**Level 5 – Professionelle Projektkommunikation**
+
+Komplexe technische Diskussionen, Meetings, Kundenkommunikation und realistische Vertragsinterpretationen.
+
+Mein Einstiegsniveau soll über einen kurzen Einstufungstest ermittelt werden.
+
+Danach soll die App die Übungen an mein tatsächliches Können anpassen.
+
+---
+
+# 11. Lerninhalte und Datenbank
+
+Bitte erstelle eine sinnvoll strukturierte Inhaltsdatenbank.
+
+Die Fachvokabeln sollen nach Themenbereichen organisiert sein.
+
+Beispielsweise:
+
+1. Allgemeines technisches Englisch
+2. Technisches Projektmanagement
+3. Schienenfahrzeuge und Bahntechnik
+4. Betriebseinführung und Inbetriebnahme
+5. RAM – Reliability, Availability, Maintainability
+6. Wartung und Instandhaltung
+7. Ersatzteilmanagement
+8. Technische Dokumentation
+9. Verträge und vertragliche Anforderungen
+10. Qualitätsmanagement und Abnahme
+11. Kundenkommunikation und Meetings
+12. Garantie und After-Sales-Service
+
+Bitte erstelle einen fachlich geprüften Startbestand mit mindestens 200 relevanten Vokabeln.
+
+Die Begriffe sollen nicht einfach aus beliebigen Wörterlisten stammen, sondern nach ihrer Relevanz für meine spätere Tätigkeit ausgewählt werden.
+
+Vermeide unnötige Dopplungen und unpassende Übersetzungen.
+
+Die Datenstruktur soll so aufgebaut sein, dass zukünftig problemlos weitere Vokabeln, Dokumente, Übungen und Szenarien ergänzt werden können.
+
+Bevorzuge eine Trennung von Anwendungslogik und Lerninhalten.
+
+---
+
+# 12. Benutzeroberfläche und Design
+
+Die App soll modern, übersichtlich und intuitiv bedienbar sein.
+
+Ich bevorzuge ein professionelles Design statt einer kindlich wirkenden Sprachlern-App.
+
+Die Anwendung soll motivierend sein, aber nicht durch übertriebene Animationen oder unnötige Spielereien ablenken.
+
+Wichtige Eigenschaften:
+
+- Klare Navigation
+- Modernes Dashboard
+- Übersichtliche Lernkarten
+- Angenehme Typografie
+- Dunkler und heller Modus
+- Gute Lesbarkeit technischer Texte
+- Responsives Design
+- Bedienbarkeit am PC und Smartphone
+
+Die App soll bevorzugt als Webanwendung funktionieren.
+
+Falls die bestehende Architektur dafür geeignet ist, wäre eine Progressive Web App (PWA) sinnvoll, die sich auch auf meinem Smartphone installieren lässt.
+
+Ich möchte möglichst ohne komplizierte Einrichtung lernen können.
+
+---
+
+# 13. Technische Anforderungen
+
+Bitte nutze die vorhandene GitHub-Anwendung als Grundlage.
+
+Achte dabei auf:
+
+- Saubere, wartbare Architektur
+- Wiederverwendbare Komponenten
+- Verständliche Datenstruktur
+- Langfristige Erweiterbarkeit
+- Persistente Speicherung meines Lernfortschritts
+- Datensicherung beziehungsweise Exportmöglichkeiten
+- Keine unnötigen kostenpflichtigen Dienste
+- Möglichst geringe laufende Betriebskosten
+- Sichere Behandlung möglicher API-Schlüssel
+- Funktionsfähigkeit auch ohne externe KI-Dienste
+
+Bei einer rein lokalen Anwendung soll der Lernfortschritt möglichst lokal gespeichert werden können.
+
+Soll die App später auf mehreren Geräten mit synchronisiertem Lernstand funktionieren, muss dafür eine passende Lösung vorgesehen werden.
+
+Bitte entscheide nicht vorschnell über komplexe Backend-Dienste, bevor die bestehende Architektur geprüft wurde.
+
+---
+
+# 14. Technische und fachliche Qualität
+
+Die Lerninhalte müssen fachlich plausibel und sprachlich korrekt sein.
+
+Besonders bei RAM-Kennzahlen, Vertragsanforderungen und technischen Zusammenhängen ist Genauigkeit wichtig.
+
+Es darf nicht passieren, dass ich durch die App falsche Fachbegriffe oder falsche technische Zusammenhänge lerne.
+
+Deshalb:
+
+- Verwende korrekte englische Fachbegriffe.
+- Berücksichtige den Kontext der Bahnindustrie.
+- Unterscheide unterschiedliche Bedeutungen von Begriffen.
+- Erkläre Fachabkürzungen.
+- Verwende realistische Beispiele.
+- Kennzeichne fiktive technische Angaben.
+- Gib bei extern übernommenen Inhalten die Quellen an.
+- Vermeide ungesicherte Behauptungen über Stadler-interne Prozesse.
+
+Bei Anforderungen aus Verträgen ist immer der konkrete Wortlaut maßgeblich.
+
+---
+
+# 15. Vorgehensweise bei der Entwicklung
+
+Ich möchte das Projekt schrittweise entwickeln.
+
+Bitte gehe folgendermaßen vor.
+
+## Phase 1 – Bestehendes Projekt analysieren
+
+Untersuche zunächst das gesamte vorhandene GitHub-Repository.
+
+Erstelle eine verständliche Übersicht:
+
+- Welche Funktionen sind vorhanden?
+- Welche Technologien werden verwendet?
+- Welche Komponenten lassen sich wiederverwenden?
+- Welche Funktionen sind für mein Projekt ungeeignet?
+- Welche Erweiterungen sind erforderlich?
+- Welche technischen Schwierigkeiten sind zu erwarten?
+
+## Phase 2 – Entwicklungskonzept
+
+Erstelle auf Basis der Analyse ein Konzept für die Englisch-Lernapp.
+
+Beschreibe:
+
+- Vorgeschlagene Architektur
+- Aufbau der Benutzeroberfläche
+- Lernmodule
+- Datenbankstruktur
+- Umsetzung des Vokabeltrainers
+- Speicherung des Lernfortschritts
+- Erweiterungsmöglichkeiten
+
+## Phase 3 – Erste funktionsfähige Version
+
+Entwickle eine erste Version mit den wichtigsten Funktionen.
+
+Prioritäten:
+
+1. Funktionierende Benutzeroberfläche
+2. Fachvokabeltrainer
+3. Intelligentes Wiederholungssystem
+4. Grundlegendes Dokumententraining
+5. Speicherung des Lernfortschritts
+6. Einfaches Dashboard
+
+Die erste Version soll bereits sinnvoll nutzbar sein.
+
+Keine reinen Design-Demos und keine Schaltflächen ohne Funktion.
+
+## Phase 4 – Erweiterung
+
+Anschließend werden weitere Lernmodule ergänzt:
+
+- Erweiterte Dokumentenanalyse
+- Hörverständnis
+- Aussprachetraining
+- Berufliche Szenarien
+- KI-gestützte Übungen
+- Individuelle Lernplanung
+- PDF-Import
+
+## Phase 5 – Test und Optimierung
+
+Teste die Anwendung systematisch.
+
+Überprüfe insbesondere:
+
+- Funktionieren alle Lernmodule?
+- Werden Lernstände korrekt gespeichert?
+- Funktioniert das Wiederholungssystem?
+- Werden Fragen korrekt ausgewertet?
+- Funktioniert die App auf Smartphone und PC?
+- Sind Lerninhalte und Übersetzungen korrekt?
+- Gibt es technische Fehler?
+
+---
+
+# 16. Besonders wichtig: Mein eigentliches Lernziel
+
+Mein Ziel ist nicht, möglichst viele englische Wörter auswendig zu lernen.
+
+Ich möchte beruflich handlungsfähig werden.
+
+Das bedeutet:
+
+Ich möchte einen englischen Vertragsabschnitt lesen und verstehen können, was tatsächlich gefordert wird.
+
+Ich möchte technische Dokumentationen lesen und wichtige Informationen zuverlässig finden.
+
+Ich möchte RAM-Begriffe und Kennzahlen verstehen.
+
+Ich möchte Ersatzteilkonzepte und technische Anforderungen mit Fachkollegen besprechen können.
+
+Und ich möchte in einem internationalen Projektmeeting verstehen, worüber gesprochen wird, und mich fachlich verständlich ausdrücken können.
+
+Die Lernapp soll mich genau darauf vorbereiten.
+
+**Die Kombination aus technischem Fachenglisch, Dokumentenverständnis und praktischer Projektkommunikation hat deshalb oberste Priorität.**
+
+---
+
+# 17. Dein erster konkreter Auftrag
+
+Bitte beginne jetzt mit der Analyse des vorhandenen GitHub-Repositories.
+
+Nimm zunächst keine umfangreichen Änderungen vor.
+
+Erkläre mir nach der Analyse:
+
+1. Wie die bestehende Anwendung aufgebaut ist.
+2. Welche Funktionen wir übernehmen können.
+3. Wie du meine Englisch-Lernapp technisch umsetzen würdest.
+4. Welche Teile du neu entwickeln musst.
+5. Wie die erste funktionsfähige Version aussehen soll.
+6. Welche Funktionen du zuerst umsetzen würdest.
+7. Welche Entscheidungen oder Informationen du vor Entwicklungsbeginn tatsächlich noch von mir benötigst.
+
+Erstelle außerdem einen konkreten Entwicklungsplan mit sinnvoll aufeinanderfolgenden Arbeitsschritten.
+
+Berücksichtige dabei, dass ich kein professioneller Softwareentwickler bin.
+
+Erkläre technische Entscheidungen verständlich und arbeite möglichst eigenständig.
+
+**Wichtig: Erst Repository analysieren, Architektur verstehen und Entwicklungsplan erstellen. Danach beginnen wir mit der eigentlichen Umsetzung.**
