@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#faf9f5">
+  <meta name="description" content="Englischtraining für Betriebseinführung und technische Projektarbeit.">
+  <title>Rail English</title>
+  <link rel="icon" href="/rail.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Zum Inhalt</a>
+  <header class="top">
+    <div class="bar">
+      <a class="brand" href="#heute"><span class="brand-icon" aria-hidden="true"><img src="/rail.svg" alt=""></span>Rail English<span class="brand-dot">.</span></a>
+      <nav aria-label="Hauptnavigation" class="desktop-nav">
+        <a href="#heute">Heute</a><a href="#vokabeln">Vokabeln</a><a href="#dokumente">Dokumente</a><a href="#fortschritt">Fortschritt</a>
+      </nav>
+      <div class="controls">
+        <button type="button" class="round" id="theme" aria-label="Farbschema wechseln"></button>
+        <button type="button" class="round" id="menu-button" aria-expanded="false" aria-controls="menu" aria-label="Menü öffnen"></button>
+        <nav class="menu glass" id="menu" aria-label="App-Menü" hidden>
+          <a href="#heute">Heute</a><a href="#vokabeln">Vokabeln</a><a href="#dokumente">Dokumente</a><a href="#fortschritt">Fortschritt</a>
+          <button type="button" id="motion">Bewegung reduzieren</button>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"><p>Laden …</p></main>
+  <footer class="footer"><span>Rail English</span><a href="/quellen.html">Quellen &amp; Hinweise</a></footer>
+  <div class="notice glass" role="status" id="notice" hidden></div>
+</body>
+</html>
