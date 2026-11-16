@@ -3,6 +3,7 @@ import { checkAnswer, uniqueAttempts, reviewStates, queueFor, completedDocuments
 
 const $ = selector => document.querySelector(selector);
 const main = $("#main");
+const syncApp = $('meta[name="sync-app"]')?.content;
 const icons = {
   menu: '<path d="M5 7h14M5 12h14M5 17h14"/>',
   sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/>',
@@ -118,6 +119,10 @@ function record(kind, item, rating, answerMode) {
 function renderSync() {
   const box = $("#sync");
   if (!box) return;
+  if (syncApp) {
+    box.innerHTML = '<p class="caption">Auf GitHub Pages bleibt dein Lernstand in diesem Browser. Für denselben Lernstand auf iPhone und PC übe auf beiden Geräten in der Version mit Anmeldung.</p><div class="actions"><a class="button secondary" href="' + escape(syncApp) + '">App mit Synchronisierung öffnen</a></div>';
+    return;
+  }
   box.innerHTML = account
     ? '<p class="caption" role="status">' + escape(syncStatus) + '</p><div class="actions"><button class="button secondary" id="sync-now">Jetzt synchronisieren</button><a class="button link-button" target="_top" href="' + signOut + '">Abmelden</a></div>'
     : '<p class="caption">Als Gast bleibt dein Lernstand in diesem Browser. Melde dich auf beiden Geräten mit demselben ChatGPT-Konto an, um ihn zu synchronisieren.</p><div class="actions"><a class="button secondary" target="_top" href="' + signIn + '">Mit ChatGPT anmelden</a></div>';
@@ -207,7 +212,7 @@ function today() {
     '<h2 class="section-title">Lernbereiche</h2><div class="tiles">' +
     [["vokabeln","cards","Vokabeln",words.length + " Begriffe und Wendungen aus sechs Themenfeldern.",""],
      ["dokumente","doc","Dokumente","Prüfbericht, RAM-Klausel und Ersatzteil-Spezifikation.","blue"],
-     ["fortschritt","chart","Fortschritt","Fälligkeiten, Fehlerliste und Lernstand auf beiden Geräten.","green"]]
+     ["fortschritt","chart","Fortschritt", syncApp ? "Fälligkeiten, Fehlerliste und dein Lernstand in diesem Browser." : "Fälligkeiten, Fehlerliste und Lernstand auf beiden Geräten.","green"]]
       .map(([link, symbol, title, text, color]) => '<a class="tile" href="#' + link + '"><div class="tile-heading">' + badge(symbol,color) + '<span class="arrow" aria-hidden="true">↗</span></div><h3>' + title + '</h3><p>' + text + '</p></a>').join("") + '</div>';
 }
 
@@ -393,4 +398,4 @@ window.addEventListener("hashchange", () => {
   window.scrollTo(0, 0);
 });
 render();
-connect();
+if (!syncApp) connect();
